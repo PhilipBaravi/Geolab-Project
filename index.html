@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
@@ -17,19 +16,19 @@
 </head>
 
 <body>
-    <nav id="navbar">
+    <nav class="navbar">
         <div id="logo">
-            <img src="css/dk_logo.png" alt="logo">
+            <img src="Images/dk_logo.png" alt="logo">
         </div>
-        <div class="list">
-            <ul>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Gallery</a>
-                <a href="#">Contact Us</a>
-            </ul>
-        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#slider">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#stats">Skills</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
     </nav>
     <header>
         <div id="slider">
@@ -62,8 +61,7 @@
                         beauty resembles the moon.
                         Her power as a magical swordsman comes from amplifying the energy of spirits. She can attack
                         both in front of and beside her, dashing between foes and rendering them all helpless with
-                        instantaneous, decisive blows. Despite being a melee class, she cannot take a lot of hits,
-                        instead opting to block using her Kriegsmesser or attack from range.
+                        instantaneous, decisive blows.
                     </p>
                 </div>
             </div>
@@ -73,7 +71,7 @@
         <section id="stats">
             <div class="left">
                 <div class="swords">
-                    <img src="css/animation.png" alt="" class="slide-fwd-right">
+                    <img src="Images/animation.png" alt="" class="slide-fwd-right">
                 </div>
             </div>
             <div class="right">
@@ -128,17 +126,17 @@
             <h1>Gallery</h1>
             <section class="portfolio_block">
                 <div class="gallery">
-                    <div class="img_box blur pic"><img src="css/g1.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g2.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g3.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g4.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g5.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g6.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g7.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g8.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g9.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g10.jpg" alt></div>
-                    <div class="img_box blur"><img src="css/g11.jpg" alt></div>
+                    <div class="img_box blur pic"><img src="Images/g1.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g2.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g3.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g4.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g5.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g6.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g7.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g8.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g9.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g10.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g11.jpg" alt></div>
                 </div>
             </section>
         </section>
@@ -174,14 +172,13 @@
                     </div>
                 </div>
             </div>
-
         </section>
         <footer>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
         </footer>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
