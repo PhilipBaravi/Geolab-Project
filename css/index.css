@@ -921,6 +921,7 @@ footer :nth-of-type(5) {
     footer a {
         width: 70px;
         height: 70px;
+        border: none;
     }
 
     .gallery :nth-of-type(11),
