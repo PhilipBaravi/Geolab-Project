@@ -295,43 +295,43 @@ main {
   
   
   #top :nth-of-type(1){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2284.png");
+    background-image: url("../Images/skill1.png");
   }
   
   #top :nth-of-type(2){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2299.png");
+    background-image: url("../Images/skill2.png");
   }
   
   #top :nth-of-type(3){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2302.png");
+    background-image: url("../Images/skill3.png");
   }
   
   #top :nth-of-type(4){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2258.png");
+    background-image: url("../Images/skill4.png");
   }
   
   #top :nth-of-type(5){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2336.png");
+    background-image: url("../Images/skill5.png");
   }
   
   #top :nth-of-type(6){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2337.png");
+    background-image: url("../Images/skill6.png");
   }
   
   #top :nth-of-type(7){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2380.png");
+    background-image: url("../Images/skill7.png");
   }
   
   #top :nth-of-type(8){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2305.png");
+    background-image: url("../Images/skill8.png");
   }
   
   #top :nth-of-type(9){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2418.png");
+    background-image: url("../Images/skill9.png");
   }
   
   #top :nth-of-type(10){
-    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2406.png");
+    background-image: url("../Images/skill10.png");
   }
   #bottom{
     display: flex;
