@@ -30,3 +30,4 @@ function displaySkill9(){
 function displaySkill10(){
     document.getElementById("src").src = skillArr[9];
 }
+ 
