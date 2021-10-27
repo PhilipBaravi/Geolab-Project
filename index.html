@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar">
         <div id="logo">
-            <img src="Images/dk_logo.png" alt="logo">
+            <img src="Images/dk_logo.png" alt="logo" class="rotate">
         </div>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -205,6 +205,11 @@
     <script src="Javascript/slider.js"></script>
     <script src="Javascript/abilities.js"></script>
     <script src="Javascript/stats.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#logo img').removeClass('rotate');
+        });
+      </script>
 </body>
 
 </html>
