@@ -1,4 +1,5 @@
 html {
+    width: 100%;
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
 }
@@ -107,7 +108,7 @@ html {
 }
 
 .navbar .menu-btn:checked~.menu {
-    max-height: 320px;
+    max-height: 350px;
 }
 
 .navbar .menu-btn:checked~.menu-icon .navicon {
@@ -250,11 +251,112 @@ main {
     letter-spacing: -0.04rem;
 }
 
+.abilities{
+    padding-top: 15px;
+    max-width: 100%;
+    height: auto;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    max-height: 600px;
+  }
+
+  .abilities h1 {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+  }
+  #top{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    background-color: #000;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #top div{
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  #top :nth-of-type(1){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2284.png");
+  }
+  
+  #top :nth-of-type(2){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2299.png");
+  }
+  
+  #top :nth-of-type(3){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2302.png");
+  }
+  
+  #top :nth-of-type(4){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2258.png");
+  }
+  
+  #top :nth-of-type(5){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2336.png");
+  }
+  
+  #top :nth-of-type(6){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2337.png");
+  }
+  
+  #top :nth-of-type(7){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2380.png");
+  }
+  
+  #top :nth-of-type(8){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2305.png");
+  }
+  
+  #top :nth-of-type(9){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2418.png");
+  }
+  
+  #top :nth-of-type(10){
+    background-image: url("https://bddatabase.net/items/new_icon/04_pc_skill/01_pc_skill/15_pdew_skill/pdew_skill_2406.png");
+  }
+  #bottom{
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    background-color: #000;
+  }
+  
+  #bottom *{
+    margin : 10px;
+  }
+  
+  #bottom video{
+    border-radius: 20px;
+    width: 600px;
+    height: auto;
+  }
+  
+
 #stats {
     display: flex;
     width: 100%;
     height: auto;
     background: #000;
+    padding-top: 40px;
 }
 
 #stats .left {
@@ -629,7 +731,7 @@ footer :nth-of-type(5) {
 }
 
 
-@media (min-width: 48em) {
+@media (min-width: 920px) {
     .navbar li {
         float: left;
     }
@@ -861,3 +963,15 @@ footer :nth-of-type(5) {
         border: none;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    #bottom video {
+      width: 350px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #bottom video {
+      width: 250px;
+    }
+  }
