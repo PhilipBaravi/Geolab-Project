@@ -14,6 +14,7 @@
         rel="stylesheet">
     <title>Geolab Project</title>
 </head>
+
 <body>
     <nav class="navbar">
         <div id="logo">
@@ -71,23 +72,23 @@
         <section class="abilities" id="abilities">
             <h1>Abilities</h1>
             <section id="top">
-            <div class="skill" onclick="displaySkill()"></div>
-            <div class="skill" onclick="displaySkill2()"></div>
-            <div class="skill" onclick="displaySkill3()"></div>
-            <div class="skill" onclick="displaySkill4()"></div>
-            <div class="skill" onclick="displaySkill5()"></div>
-            <div class="skill" onclick="displaySkill6()"></div>
-            <div class="skill" onclick="displaySkill7()"></div>
-            <div class="skill" onclick="displaySkill8()"></div>
-            <div class="skill" onclick="displaySkill9()"></div>
-            <div class="skill" onclick="displaySkill10()"></div>
+                <div class="skill active"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
             </section>
             <section id="bottom">
-              <video  autoplay id="src">
-                <source src="https://thumbs.gfycat.com/FirmFlakyHoneybee-mobile.mp4" type="video/mp4">
-              </video>
+                <video autoplay id="src">
+                    <source src="https://thumbs.gfycat.com/FirmFlakyHoneybee-mobile.mp4" type="video/mp4">
+                </video>
             </section>
-          </section>
+        </section>
         <section id="stats">
             <div class="left">
                 <div class="swords">
@@ -206,10 +207,10 @@
     <script src="Javascript/abilities.js"></script>
     <script src="Javascript/stats.js"></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('#logo img').removeClass('rotate');
         });
-      </script>
+    </script>
 </body>
 
 </html>

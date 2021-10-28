@@ -29,19 +29,21 @@ html {
     filter: saturate(0);
     transition: all .3s ease;
 }
+
 .rotate {
     animation: rotation 8s infinite linear;
-  }
-  
-  @keyframes rotation {
+}
+
+@keyframes rotation {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(359deg);
+        transform: rotate(359deg);
     }
-  }
-  
+}
+
 
 #logo img:hover {
     filter: grayscale(0);
@@ -264,7 +266,7 @@ main {
     letter-spacing: -0.04rem;
 }
 
-.abilities{
+.abilities {
     padding-top: 15px;
     max-width: 100%;
     height: auto;
@@ -275,16 +277,17 @@ main {
     align-items: center;
     min-height: 400px;
     max-height: 600px;
-  }
+}
 
-  .abilities h1 {
+.abilities h1 {
     color: #fff;
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     margin-top: 30px;
-  }
-  #top{
+}
+
+#top {
     width: auto;
     height: auto;
     display: flex;
@@ -295,74 +298,76 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
-  #top div{
+}
+
+#top div {
     width: 60px;
     height: 60px;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
     cursor: pointer;
-  }
-  
-  
-  
-  #top :nth-of-type(1){
+}
+
+
+
+#top :nth-of-type(1) {
     background-image: url("../Images/skill1.png");
-  }
-  
-  #top :nth-of-type(2){
+}
+
+#top :nth-of-type(2) {
     background-image: url("../Images/skill2.png");
-  }
-  
-  #top :nth-of-type(3){
+}
+
+#top :nth-of-type(3) {
     background-image: url("../Images/skill3.png");
-  }
-  
-  #top :nth-of-type(4){
+}
+
+#top :nth-of-type(4) {
     background-image: url("../Images/skill4.png");
-  }
-  
-  #top :nth-of-type(5){
+}
+
+#top :nth-of-type(5) {
     background-image: url("../Images/skill5.png");
-  }
-  
-  #top :nth-of-type(6){
+}
+
+#top :nth-of-type(6) {
     background-image: url("../Images/skill6.png");
-  }
-  
-  #top :nth-of-type(7){
+}
+
+#top :nth-of-type(7) {
     background-image: url("../Images/skill7.png");
-  }
-  
-  #top :nth-of-type(8){
+}
+
+#top :nth-of-type(8) {
     background-image: url("../Images/skill8.png");
-  }
-  
-  #top :nth-of-type(9){
+}
+
+#top :nth-of-type(9) {
     background-image: url("../Images/skill9.png");
-  }
-  
-  #top :nth-of-type(10){
+}
+
+#top :nth-of-type(10) {
     background-image: url("../Images/skill10.png");
-  }
-  #bottom{
+}
+
+#bottom {
     display: flex;
     flex: 1;
     padding: 1rem;
     background-color: #000;
-  }
-  
-  #bottom *{
-    margin : 10px;
-  }
-  
-  #bottom video{
+}
+
+#bottom * {
+    margin: 10px;
+}
+
+#bottom video {
     border-radius: 20px;
     width: 600px;
     height: auto;
-  }
-  
+}
+
 
 #stats {
     display: flex;
@@ -980,12 +985,12 @@ footer :nth-of-type(5) {
 
 @media only screen and (max-width: 500px) {
     #bottom video {
-      width: 350px;
+        width: 350px;
     }
-  }
-  
-  @media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 400px) {
     #bottom video {
-      width: 250px;
+        width: 250px;
     }
-  }
+}
