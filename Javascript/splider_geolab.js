@@ -4,7 +4,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
   type: 'loop',
   perPage: 1,
   focus: 'center',
-  fixedWidth: '40%',
+  fixedWidth: '60%',
   rewind: false,
   drag: false,
   flickMaxPages: 2,
