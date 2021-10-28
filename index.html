@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -32,18 +33,17 @@
         </ul>
     </nav>
     <header>
-        <div id="slider">
-            <div class="slider">
-                <div class="slide_viewer">
-                    <div class="slide_group">
-                        <div class="slide">
-                        </div>
-                        <div class="slide">
-                        </div>
-                        <div class="slide">
-                        </div>
-                    </div>
-                </div>
+        <div id="splide" class="splide" style="background-color: #000;padding-top: 50px;">
+            <h2>Discover something new</h2>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="Images/g11.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g8.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g7.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g6.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g5.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g4.jpg" alt=""></li>
+                </ul>
             </div>
         </div>
     </header>
@@ -203,6 +203,8 @@
         </footer>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="Javascript/splider_geolab.js"></script>
     <script src="Javascript/slider.js"></script>
     <script src="Javascript/abilities.js"></script>
     <script src="Javascript/stats.js"></script>

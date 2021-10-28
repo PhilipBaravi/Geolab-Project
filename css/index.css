@@ -143,50 +143,23 @@ html {
     top: 0;
 }
 
-.slider {
-    width: 100%;
-}
-
-
-.slide_viewer {
-    height: 680px;
-    overflow: hidden;
-    position: relative;
-}
-
-.slide_group {
-    height: 100%;
-    position: relative;
-    width: 100%;
-}
-
-.slide {
+.splide__arrows {
     display: none;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
-.slide:first-child {
+.splide__slide {
+    transform: scale(0.85)
+}
+
+
+.splide__slide.is-active {
+    transform: scale(1)
+}
+
+.splide img {
     display: block;
-}
-
-.slide:nth-of-type(1) {
-    background-image: url('../Images/Wallpaper(1).jpg');
-}
-
-.slide:nth-of-type(2) {
-    background-image: url('../Images/Wallpaper(2).jpg');
-}
-
-.slide:nth-of-type(3) {
-    background-image: url('../Images/Wallpaper(3).jpg');
+    width: 100%;
+    box-sizing: border-box;
 }
 
 main {
@@ -770,9 +743,6 @@ footer :nth-of-type(5) {
 }
 
 @media screen and (max-width: 960px) {
-    .slide_viewer {
-        height: 480px;
-    }
 
     .swords img {
         width: 60%;
@@ -808,9 +778,6 @@ footer :nth-of-type(5) {
 }
 
 @media screen and (max-width: 680px) {
-    .slide_viewer {
-        height: 350px;
-    }
 
     #about .left {
         flex: 1;
@@ -922,9 +889,6 @@ footer :nth-of-type(5) {
         text-align: center;
     }
 
-    .slide_viewer {
-        height: 200px;
-    }
 
     #about .left h1 {
         margin-bottom: 7px;
